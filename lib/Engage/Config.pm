@@ -21,7 +21,7 @@ has 'config_path' => (
     is  => 'rw',
     isa => 'Path::Class::Dir',
     coerce => 1,
-    default  => sub { $ENV{'CONFIG_PATH'} || "$FindBin::Bin/conf" },
+    default  => sub { $ENV{'CONFIG_PATH'} || "$FindBin::Bin/../conf" },
 );
 
 has 'config_prefix' => (

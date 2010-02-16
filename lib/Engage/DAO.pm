@@ -19,6 +19,7 @@ has 'data_class' => (
         my $app  = $self->appclass;
         substr ref $self, length "$app\::DAO::";
     },
+    lazy => 1,
 );
 
 has 'data_name' => (

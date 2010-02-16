@@ -17,6 +17,7 @@ requires 'Moose::Role';
 requires 'MooseX::Singleton';
 requires 'MooseX::Types::Path::Class';
 requires 'MooseX::LogDispatch';
+requires 'MooseX::App::Cmd';
 requires 'Catalyst';
 requires 'Catalyst::Exception';
 requires 'Catalyst::Runtime';
